@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Camp Fielder Weekend Adventure Form</h1>
+    <p id="description">Please fill out all fields, and we will contact you through E-mail </p>
+      <p id="description">availability is first come first serve</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label"> Name
+          <input id="name" name="name" type="text" placeholder="please enter your name here!" required />
+          </label>
+          <label for="email" id="email-label"> Email
+            <input id="email" name="email" type="email" placeholder="Please enter your email here!" required />
+            </input></label>
+            <label for="number" id="number-label"> Number in Party(including children)
+              <input id="number" name="number" type="number" min="1" max="100" placeholder="Number of attendees"></label>
+              <label class="dropdown">Campsite</label>
+      <select id="dropdown"> 
+        <option value="">(please select desired campsite, attached map will contain location pictures)</option>
+        <option value="1">Western Overlook</option>
+        <option Value="2">Shady Meadow</option>
+        <option Value="3">Eastern Plain</option>
+        <option value="4">Northern Retreat</option>
+      </select>
+            <label>Plot Size Preference</label>
+            <label><Input type="radio" name="recky" value="1"></input>Small</label>
+            <label><input type="radio" name="recky" value="2"></input>Medium</label>
+            <label><input type="radio" name="recky" value="3"></input>Large</label>
+            <label class="dropdown">Choose Weekend of Attendance</label>
+      <select id="dropdown">
+        <option value="">(select one)</option>
+        <option value="1">May 25th - 27th</option>
+        <option Value="2">May 31st - June 2nd</option>
+        <option Value="3">June 7th - 9th</option>
+        <option value="4">June 14th - 16th</option>
+      </select> </select>
+            <label class="ass">Supplementary Equipment and Ammenities</label>
+            <label>
+            <Input type="checkbox" value="1"></input>Firewood</label><label>
+           <Input type="checkbox" value="2"></input>Starter Trail Kit</label>
+           <label> <Input type="checkbox" value="3"></input>Cool Camp Hat</label>
+           <label> <Input type="checkbox" value="4"></input>60L Camp Fielder Trail Pack</label>
+            <label> <Input type="checkbox" value="4"></input>Solar Lantern</label>
+            <label> <Input type="checkbox" value="4"></input>Camp Fielder Survival Umbrella</label>
+
+            <label class="bio">Additional Questions</label>
+        <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Any additional questions or accomodations please put here, and we will reply in a timely manner through e-mail."></textarea>
+        <input id="submit" type="submit" value="Submit" ></input>
+        </fieldset>
+      
+      
+      
+      
+       </form>
+       </body>
