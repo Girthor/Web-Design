@@ -1,0 +1,139 @@
+h1 {
+  font-size: 3em;
+  padding: 0;
+  Margin: 0;
+  padding-top: 50px;
+}
+body {
+font-family: Courier New;
+width: 100%;
+height: 125vh;
+background-image: url(https://discoveryplace.org/wp-content/uploads/2023/06/Colorful-Campfire-featured-image-2.jpeg);
+background-repeat: no-repeat;
+background-position: top;
+background-color: black;
+}
+head {
+  bottom-margin: -5px;
+}
+
+label, input, select {
+  display: block;
+  text-align: left;
+  width:100%;
+  margin:0 0 0 0;
+  padding-bottom:15px;
+} 
+h1, p {
+  text-align: center;
+  margin: 0;
+  color: white; 
+}
+  p {
+    padding-bottom: 20px;
+  }
+
+fieldset {
+margin: 0 auto;
+padding: 2em;
+background-color: rgba(31, 7, 7, 0.8);
+border-radius:5px;
+border:none;
+width: 40vw;
+  min-width: 700px;
+  max-width: 700px;
+  height: 100%;
+  margin-bottom:0;
+  font-size: 1.6em;
+  padding-bottom: 10em;
+ 
+
+form {
+  width: 10vw;
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 3em;
+ height:100%;
+}
+input{
+margin-bottom: 10px;
+border-radius: 5px;
+vertical-align: middle;
+padding: 
+}
+
+label {
+color: white;
+font-family: Courier New;
+
+}
+
+input[type="radio"]
+{
+ width: unset;
+  vertical-align: baseline;
+  display: inline; 
+   transform: scale(1.25);
+   margin-right: 15px;
+  margin-bottom: 0
+   
+}
+input[type="checkbox"]{
+  display: inline;
+  width: unset;
+  margin-right: 15px;
+  padding: 0;
+  vertical-align: bottom;
+  transform: scale(1.5);
+}
+textarea {
+  display:block;
+  width:100%;
+  height:10em;
+  margin-top:-.5em;
+}
+select {
+  margin-top: -.5em;
+  margin-bottom:4em;
+  
+}
+input[type="submit"] {
+  margin-top: 2em;
+  padding-top: .5em;
+  height:2em;
+  text-align: center;
+  font-size: 1em;
+  vertical-align: center;
+  font-family: Courier New;
+  background-color: rgba(50, 125, 107);
+  color: white;
+  border: none;
+  }
+input[placeholder] {
+  font-size: .75em;
+  vertical-align: middle;
+  line-height: 1em;
+  padding-top: .55em;
+  padding-left: 2%;
+  
+}
+select {
+  vertical-align: middle;
+padding-top: .55em;
+  line-height: 1em;
+  padding-left: 2%;
+}
+textarea {
+  font-size: 1em;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+.dropdown{
+  margin-top: 25px;
+}
+.bio {
+ margin-top: 20px;
+
+}
+  
